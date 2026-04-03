@@ -320,7 +320,6 @@
 %% ═══════════════════════════════════════════════════════════════════
 \begin{frame}{Base Captioning: GPT-2 Decoder (1/2)}
 
-%% Scale 0.52 maps the ~12cm-tall report diagram to ~6.2cm, fitting Beamer.
 \begin{center}
 \scalebox{0.43}{%
 \begin{tikzpicture}[
@@ -330,17 +329,16 @@
     arrow/.style={->, >=stealth, thick},
     lbl/.style={font=\small}
 ]
-%% ── Nodes (exact order as report Figure 2) ───────────────────────
+%% ── Nodes ───────────────────────────────────────────────────────
 \node[block, fill=green!30]  (imgfeat) {Image Features\\(from ViT)\\512-dim};
 \node[block, right=3cm of imgfeat, fill=orange!30]
                              (tokens)  {Input Tokens\\{[BOS]} + previous};
 
 \node[block, below=of tokens]   (embed)  {Token Embedding\\+ Positional};
 
-\node[block, below left=1cm and 0.5cm of embed]
-                             (cross)   {Cross-Attention\\with Image Features};
+%% REMOVED: Cross-Attention block - not in actual code!
 
-\node[block, below=of cross, minimum height=3cm, fill=purple!30, text width=5.5cm]
+\node[block, below=1.5cm of embed, minimum height=3cm, fill=purple!30, text width=5.5cm]
     (decoder) {
         \begin{tabular}{c}
         \textbf{8 $\times$ Decoder Blocks}\\[0.3cm]
@@ -359,14 +357,17 @@
                              (output)  {Next Token\\Probabilities};
 
 %% ── Forward arrows ───────────────────────────────────────────────
-\draw[arrow] (imgfeat) -- (cross);
+%% Image features go to decoder blocks (for cross-attention inside)
+\draw[arrow] (imgfeat.south) -- ++(0,-1) -| (decoder.north west);
+
+%% Tokens → Embedding → Decoder blocks DIRECTLY
 \draw[arrow] (tokens)  -- (embed);
-\draw[arrow] (embed)   -- (cross);
-\draw[arrow] (cross)   -- (decoder);
+\draw[arrow] (embed)   -- (decoder);
+
 \draw[arrow] (decoder) -- (proj);
 \draw[arrow] (proj)    -- (output);
 
-%% ── Autoregressive loop: right then up (matches report Figure 2) ─
+%% ── Autoregressive loop ─────────────────────────────────────────
 \draw[arrow, dashed, red]
     (output.east) -- ++(4.5,0)
     |- (tokens.east);
@@ -375,6 +376,11 @@
 %% ── Side annotation ──────────────────────────────────────────────
 \node[lbl, left=0.3cm of decoder]
     {\begin{tabular}{r}Hidden: 512\\Heads: 8\\Context: 50\end{tabular}};
+
+%% ── Optional: Add label showing image features feed into each block
+\node[lbl, blue, left=0.3cm of imgfeat.south, anchor=north]
+    {\scriptsize (feeds into each block)};
+    
 \end{tikzpicture}
 }
 \end{center}
