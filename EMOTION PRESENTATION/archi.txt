@@ -1,0 +1,21 @@
+Architecture and Model Configuration
+The vision encoder utilizes a pretrained ViT-Base model (vit_base_patch16_224) from the TIMM library, which
+processes 224×224 pixel images by dividing them into 196 non-overlapping 16×16 pixel patches. These patches
+are linearly embedded into 768-dimensional vectors and processed through 8 transformer encoder blocks, each
+containing multi-head self-attention mechanisms with 4 attention heads followed by feedforward networks. The
+encoder prepends a learnable [CLS] token to the patch sequence, and after processing through all 8 encoder
+layers, this [CLS] token's 768-dimensional representation captures the global visual semantics of the entire
+image. To bridge the dimensional mismatch between the encoder and decoder, we employ a linear projection
+layer that maps the 768-dimensional ViT output to the decoder's 512-dimensional input space.
+The language decoder implements a custom GPT-2 architecture specifically designed for image captioning
+through cross-attention mechanisms. The decoder operates with 512-dimensional embeddings and processes
+sequences up to 50 tokens in length, utilizing the GPT-2 tokenizer's vocabulary of 50,260 tokens including
+special tokens for sequence boundaries ([BOS], [EOS]) and padding ([PAD]). The decoder comprises 8
+transformer decoder blocks stacked sequentially, where each block contains three crucial components: causal
+masked self-attention that ensures each token only attends to previous tokens in the sequence, cross-attention
+that allows text tokens to query information from the image encoding, and a feedforward network with 4×
+dimensional expansion (512→2048→512) using GELU activation. Each decoder block employs 8 attention
+heads, enabling the model to capture diverse linguistic patterns and visual-textual relationships simultaneously.
+
+
+

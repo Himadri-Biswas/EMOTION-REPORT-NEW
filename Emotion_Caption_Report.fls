@@ -1,0 +1,620 @@
+PWD E:\EMOTION ALL\EMOTION REPORT
+INPUT C:\Users\USER\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT e:\EMOTION ALL\EMOTION REPORT\Emotion_Caption_Report.tex
+OUTPUT Emotion_Caption_Report.log
+INPUT D:\MikTex app\tex\latex\base\article.cls
+INPUT D:\MikTex app\tex\latex\base\article.cls
+INPUT D:\MikTex app\tex\latex\base\size12.clo
+INPUT D:\MikTex app\tex\latex\base\size12.clo
+INPUT D:\MikTex app\tex\latex\base\size12.clo
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\MikTex app\tex\latex\geometry\geometry.sty
+INPUT D:\MikTex app\tex\latex\geometry\geometry.sty
+INPUT D:\MikTex app\tex\latex\graphics\keyval.sty
+INPUT D:\MikTex app\tex\latex\graphics\keyval.sty
+INPUT D:\MikTex app\tex\generic\iftex\ifvtex.sty
+INPUT D:\MikTex app\tex\generic\iftex\ifvtex.sty
+INPUT D:\MikTex app\tex\generic\iftex\iftex.sty
+INPUT D:\MikTex app\tex\generic\iftex\iftex.sty
+INPUT D:\MikTex app\tex\latex\geometry\geometry.cfg
+INPUT D:\MikTex app\tex\latex\geometry\geometry.cfg
+INPUT D:\MikTex app\tex\latex\geometry\geometry.cfg
+INPUT D:\MikTex app\tex\latex\setspace\setspace.sty
+INPUT D:\MikTex app\tex\latex\setspace\setspace.sty
+INPUT D:\MikTex app\tex\latex\base\fontenc.sty
+INPUT D:\MikTex app\tex\latex\base\fontenc.sty
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecrm1200.tfm
+INPUT D:\MikTex app\tex\latex\hyperref\hyperref.sty
+INPUT D:\MikTex app\tex\latex\hyperref\hyperref.sty
+INPUT D:\MikTex app\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\MikTex app\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\MikTex app\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\MikTex app\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\MikTex app\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\MikTex app\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\MikTex app\tex\generic\pdfescape\pdfescape.sty
+INPUT D:\MikTex app\tex\generic\pdfescape\pdfescape.sty
+INPUT D:\MikTex app\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\MikTex app\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\MikTex app\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\MikTex app\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\MikTex app\tex\latex\hycolor\hycolor.sty
+INPUT D:\MikTex app\tex\latex\hycolor\hycolor.sty
+INPUT D:\MikTex app\tex\latex\letltxmacro\letltxmacro.sty
+INPUT D:\MikTex app\tex\latex\letltxmacro\letltxmacro.sty
+INPUT D:\MikTex app\tex\latex\auxhook\auxhook.sty
+INPUT D:\MikTex app\tex\latex\auxhook\auxhook.sty
+INPUT D:\MikTex app\tex\latex\hyperref\nameref.sty
+INPUT D:\MikTex app\tex\latex\hyperref\nameref.sty
+INPUT D:\MikTex app\tex\latex\refcount\refcount.sty
+INPUT D:\MikTex app\tex\latex\refcount\refcount.sty
+INPUT D:\MikTex app\tex\generic\gettitlestring\gettitlestring.sty
+INPUT D:\MikTex app\tex\generic\gettitlestring\gettitlestring.sty
+INPUT D:\MikTex app\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\MikTex app\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\MikTex app\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\MikTex app\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\MikTex app\tex\latex\hyperref\pd1enc.def
+INPUT D:\MikTex app\tex\latex\hyperref\pd1enc.def
+INPUT D:\MikTex app\tex\latex\hyperref\pd1enc.def
+INPUT D:\MikTex app\tex\generic\intcalc\intcalc.sty
+INPUT D:\MikTex app\tex\generic\intcalc\intcalc.sty
+INPUT D:\MikTex app\tex\latex\hyperref\puenc.def
+INPUT D:\MikTex app\tex\latex\hyperref\puenc.def
+INPUT D:\MikTex app\tex\latex\hyperref\puenc.def
+INPUT D:\MikTex app\tex\latex\url\url.sty
+INPUT D:\MikTex app\tex\latex\url\url.sty
+INPUT D:\MikTex app\tex\generic\bitset\bitset.sty
+INPUT D:\MikTex app\tex\generic\bitset\bitset.sty
+INPUT D:\MikTex app\tex\generic\bigintcalc\bigintcalc.sty
+INPUT D:\MikTex app\tex\generic\bigintcalc\bigintcalc.sty
+INPUT D:\MikTex app\tex\generic\atbegshi\atbegshi.sty
+INPUT D:\MikTex app\tex\latex\base\atbegshi-ltx.sty
+INPUT D:\MikTex app\tex\latex\base\atbegshi-ltx.sty
+INPUT D:\MikTex app\tex\latex\hyperref\hpdftex.def
+INPUT D:\MikTex app\tex\latex\hyperref\hpdftex.def
+INPUT D:\MikTex app\tex\latex\hyperref\hpdftex.def
+INPUT D:\MikTex app\tex\latex\atveryend\atveryend.sty
+INPUT D:\MikTex app\tex\latex\base\atveryend-ltx.sty
+INPUT D:\MikTex app\tex\latex\base\atveryend-ltx.sty
+INPUT D:\MikTex app\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT D:\MikTex app\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT D:\MikTex app\tex\generic\uniquecounter\uniquecounter.sty
+INPUT D:\MikTex app\tex\generic\uniquecounter\uniquecounter.sty
+INPUT D:\MikTex app\tex\latex\graphics\graphicx.sty
+INPUT D:\MikTex app\tex\latex\graphics\graphicx.sty
+INPUT D:\MikTex app\tex\latex\graphics\graphics.sty
+INPUT D:\MikTex app\tex\latex\graphics\graphics.sty
+INPUT D:\MikTex app\tex\latex\graphics\trig.sty
+INPUT D:\MikTex app\tex\latex\graphics\trig.sty
+INPUT D:\MikTex app\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\MikTex app\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\MikTex app\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\MikTex app\tex\latex\graphics-def\pdftex.def
+INPUT D:\MikTex app\tex\latex\graphics-def\pdftex.def
+INPUT D:\MikTex app\tex\latex\graphics-def\pdftex.def
+INPUT D:\MikTex app\tex\latex\booktabs\booktabs.sty
+INPUT D:\MikTex app\tex\latex\booktabs\booktabs.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amsmath.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amsmath.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amsopn.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amstext.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amstext.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amsgen.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amsgen.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amsbsy.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amsbsy.sty
+INPUT D:\MikTex app\tex\latex\amsmath\amsopn.sty
+INPUT D:\MikTex app\tex\latex\amsfonts\amssymb.sty
+INPUT D:\MikTex app\tex\latex\amsfonts\amssymb.sty
+INPUT D:\MikTex app\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\MikTex app\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\MikTex app\tex\latex\float\float.sty
+INPUT D:\MikTex app\tex\latex\float\float.sty
+INPUT D:\MikTex app\tex\latex\xcolor\xcolor.sty
+INPUT D:\MikTex app\tex\latex\xcolor\xcolor.sty
+INPUT D:\MikTex app\tex\latex\graphics-cfg\color.cfg
+INPUT D:\MikTex app\tex\latex\graphics-cfg\color.cfg
+INPUT D:\MikTex app\tex\latex\graphics-cfg\color.cfg
+INPUT D:\MikTex app\tex\latex\graphics\mathcolor.ltx
+INPUT D:\MikTex app\tex\latex\graphics\mathcolor.ltx
+INPUT D:\MikTex app\tex\latex\graphics\mathcolor.ltx
+INPUT D:\MikTex app\tex\latex\tools\verbatim.sty
+INPUT D:\MikTex app\tex\latex\tools\verbatim.sty
+INPUT D:\MikTex app\tex\latex\mdframed\mdframed.sty
+INPUT D:\MikTex app\tex\latex\mdframed\mdframed.sty
+INPUT D:\MikTex app\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\MikTex app\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\MikTex app\tex\latex\l3kernel\expl3.sty
+INPUT D:\MikTex app\tex\latex\l3kernel\expl3.sty
+INPUT D:\MikTex app\tex\latex\l3backend\l3backend-pdftex.def
+INPUT D:\MikTex app\tex\latex\l3backend\l3backend-pdftex.def
+INPUT D:\MikTex app\tex\latex\zref\zref-abspage.sty
+INPUT D:\MikTex app\tex\latex\zref\zref-abspage.sty
+INPUT D:\MikTex app\tex\latex\zref\zref-base.sty
+INPUT D:\MikTex app\tex\latex\zref\zref-base.sty
+INPUT D:\MikTex app\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\MikTex app\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\MikTex app\tex\latex\needspace\needspace.sty
+INPUT D:\MikTex app\tex\latex\needspace\needspace.sty
+INPUT D:\MikTex app\tex\latex\graphics\color.sty
+INPUT D:\MikTex app\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\MikTex app\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\MikTex app\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\MikTex app\tex\latex\titlesec\titlesec.sty
+INPUT D:\MikTex app\tex\latex\titlesec\titlesec.sty
+INPUT D:\MikTex app\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\MikTex app\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\MikTex app\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT D:\MikTex app\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT D:\MikTex app\tex\latex\pgf\basiclayer\pgf.sty
+INPUT D:\MikTex app\tex\latex\pgf\basiclayer\pgf.sty
+INPUT D:\MikTex app\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT D:\MikTex app\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\pgf.revision.tex
+INPUT D:\MikTex app\tex\generic\pgf\pgf.revision.tex
+INPUT D:\MikTex app\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT D:\MikTex app\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT D:\MikTex app\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT D:\MikTex app\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfint.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT D:\MikTex app\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT D:\MikTex app\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT D:\MikTex app\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT D:\MikTex app\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT D:\MikTex app\tex\latex\pgf\utilities\pgffor.sty
+INPUT D:\MikTex app\tex\latex\pgf\utilities\pgffor.sty
+INPUT D:\MikTex app\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT D:\MikTex app\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\MikTex app\tex\latex\pgf\math\pgfmath.sty
+INPUT D:\MikTex app\tex\latex\pgf\math\pgfmath.sty
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT D:\MikTex app\tex\latex\caption\subcaption.sty
+INPUT D:\MikTex app\tex\latex\caption\subcaption.sty
+INPUT D:\MikTex app\tex\latex\caption\caption.sty
+INPUT D:\MikTex app\tex\latex\caption\caption.sty
+INPUT D:\MikTex app\tex\latex\caption\caption3.sty
+INPUT D:\MikTex app\tex\latex\caption\caption3.sty
+INPUT D:\MikTex app\tex\latex\multirow\multirow.sty
+INPUT D:\MikTex app\tex\latex\multirow\multirow.sty
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.misc.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.misc.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfit.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfit.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+INPUT D:\MikTex app\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+OUTPUT Emotion_Caption_Report.pdf
+INPUT .\Emotion_Caption_Report.aux
+INPUT .\Emotion_Caption_Report.aux
+INPUT Emotion_Caption_Report.aux
+OUTPUT Emotion_Caption_Report.aux
+INPUT .\Emotion_Caption_Report.out
+INPUT .\Emotion_Caption_Report.out
+INPUT Emotion_Caption_Report.out
+INPUT Emotion_Caption_Report.out
+INPUT .\Emotion_Caption_Report.out
+INPUT .\Emotion_Caption_Report.out
+OUTPUT Emotion_Caption_Report.out
+INPUT D:\MikTex app\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\MikTex app\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\MikTex app\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\MikTex app\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\MikTex app\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\MikTex app\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\MikTex app\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\MikTex app\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecrm2488.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecbx2488.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecrm1728.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\MikTex app\tex\latex\amsfonts\umsa.fd
+INPUT D:\MikTex app\tex\latex\amsfonts\umsa.fd
+INPUT D:\MikTex app\tex\latex\amsfonts\umsa.fd
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\MikTex app\tex\latex\amsfonts\umsb.fd
+INPUT D:\MikTex app\tex\latex\amsfonts\umsb.fd
+INPUT D:\MikTex app\tex\latex\amsfonts\umsb.fd
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecrm1095.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecbx1095.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecbx1728.tfm
+INPUT .\Emotion_Caption_Report.toc
+INPUT .\Emotion_Caption_Report.toc
+INPUT Emotion_Caption_Report.toc
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmr8.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmr6.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmmi8.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmmi6.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmsy8.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+OUTPUT Emotion_Caption_Report.toc
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecti1200.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT D:\MikTex app\tex\latex\base\t1cmtt.fd
+INPUT D:\MikTex app\tex\latex\base\t1cmtt.fd
+INPUT D:\MikTex app\tex\latex\base\t1cmtt.fd
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ectt1200.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\tcbx1200.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmmi10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecrm0600.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT .\images\15085612.jpg
+INPUT .\images\15085612.jpg
+INPUT .\images\15085612.jpg
+INPUT .\images\15085612.jpg
+INPUT .\images\15085612.jpg
+INPUT .\images\15085612.jpg
+INPUT .\images\15085612.jpg
+INPUT .\images\23770160.jpg
+INPUT .\images\23770160.jpg
+INPUT .\images\23770160.jpg
+INPUT .\images\23770160.jpg
+INPUT .\images\23770160.jpg
+INPUT .\images\23770160.jpg
+INPUT .\images\23770160.jpg
+INPUT .\images\Happy_2.jpg
+INPUT .\images\Happy_2.jpg
+INPUT .\images\Happy_2.jpg
+INPUT .\images\Happy_2.jpg
+INPUT .\images\Happy_2.jpg
+INPUT .\images\Happy_2.jpg
+INPUT .\images\Happy_2.jpg
+INPUT .\images\6155176.jpg
+INPUT .\images\6155176.jpg
+INPUT .\images\6155176.jpg
+INPUT .\images\6155176.jpg
+INPUT .\images\6155176.jpg
+INPUT .\images\6155176.jpg
+INPUT .\images\6155176.jpg
+INPUT .\images\Angry_1.jpg
+INPUT .\images\Angry_1.jpg
+INPUT .\images\Angry_1.jpg
+INPUT .\images\Angry_1.jpg
+INPUT .\images\Angry_1.jpg
+INPUT .\images\Angry_1.jpg
+INPUT .\images\Angry_1.jpg
+INPUT .\images\Neutral_8.jpg
+INPUT .\images\Neutral_8.jpg
+INPUT .\images\Neutral_8.jpg
+INPUT .\images\Neutral_8.jpg
+INPUT .\images\Neutral_8.jpg
+INPUT .\images\Neutral_8.jpg
+INPUT .\images\Neutral_8.jpg
+INPUT .\images\Disgust_1.jpg
+INPUT .\images\Disgust_1.jpg
+INPUT .\images\Disgust_1.jpg
+INPUT .\images\Disgust_1.jpg
+INPUT .\images\Disgust_1.jpg
+INPUT .\images\Disgust_1.jpg
+INPUT .\images\Disgust_1.jpg
+INPUT .\images\Fear_7.jpg
+INPUT .\images\Fear_7.jpg
+INPUT .\images\Fear_7.jpg
+INPUT .\images\Fear_7.jpg
+INPUT .\images\Fear_7.jpg
+INPUT .\images\Fear_7.jpg
+INPUT .\images\Fear_7.jpg
+INPUT .\images\Happy_4.jpg
+INPUT .\images\Happy_4.jpg
+INPUT .\images\Happy_4.jpg
+INPUT .\images\Happy_4.jpg
+INPUT .\images\Happy_4.jpg
+INPUT .\images\Happy_4.jpg
+INPUT .\images\Happy_4.jpg
+INPUT .\images\8118985445.jpg
+INPUT .\images\8118985445.jpg
+INPUT .\images\8118985445.jpg
+INPUT .\images\8118985445.jpg
+INPUT .\images\8118985445.jpg
+INPUT .\images\8118985445.jpg
+INPUT .\images\8118985445.jpg
+INPUT .\images\4756254503.jpg
+INPUT .\images\4756254503.jpg
+INPUT .\images\4756254503.jpg
+INPUT .\images\4756254503.jpg
+INPUT .\images\4756254503.jpg
+INPUT .\images\4756254503.jpg
+INPUT .\images\4756254503.jpg
+INPUT .\images\18119750.jpg
+INPUT .\images\18119750.jpg
+INPUT .\images\18119750.jpg
+INPUT .\images\18119750.jpg
+INPUT .\images\18119750.jpg
+INPUT .\images\18119750.jpg
+INPUT .\images\18119750.jpg
+INPUT .\images\15859665.jpg
+INPUT .\images\15859665.jpg
+INPUT .\images\15859665.jpg
+INPUT .\images\15859665.jpg
+INPUT .\images\15859665.jpg
+INPUT .\images\15859665.jpg
+INPUT .\images\15859665.jpg
+INPUT .\images\happy_3.jpg
+INPUT .\images\happy_3.jpg
+INPUT .\images\happy_3.jpg
+INPUT .\images\happy_3.jpg
+INPUT .\images\happy_3.jpg
+INPUT .\images\happy_3.jpg
+INPUT .\images\happy_3.jpg
+INPUT .\images\surprise_1.jpg
+INPUT .\images\surprise_1.jpg
+INPUT .\images\surprise_1.jpg
+INPUT .\images\surprise_1.jpg
+INPUT .\images\surprise_1.jpg
+INPUT .\images\surprise_1.jpg
+INPUT .\images\surprise_1.jpg
+INPUT .\images\fear_cus_2.jpg
+INPUT .\images\fear_cus_2.jpg
+INPUT .\images\fear_cus_2.jpg
+INPUT .\images\fear_cus_2.jpg
+INPUT .\images\fear_cus_2.jpg
+INPUT .\images\fear_cus_2.jpg
+INPUT .\images\fear_cus_2.jpg
+INPUT .\images\nuetral_bus_1.jpg
+INPUT .\images\nuetral_bus_1.jpg
+INPUT .\images\nuetral_bus_1.jpg
+INPUT .\images\nuetral_bus_1.jpg
+INPUT .\images\nuetral_bus_1.jpg
+INPUT .\images\nuetral_bus_1.jpg
+INPUT .\images\nuetral_bus_1.jpg
+INPUT .\images\sad_cus_1.jpeg
+INPUT .\images\sad_cus_1.jpeg
+INPUT .\images\sad_cus_1.jpeg
+INPUT .\images\sad_cus_1.jpeg
+INPUT .\images\sad_cus_1.jpeg
+INPUT .\images\sad_cus_1.jpeg
+INPUT .\images\sad_cus_1.jpeg
+INPUT .\images\surprise_cus_2.jpg
+INPUT .\images\surprise_cus_2.jpg
+INPUT .\images\surprise_cus_2.jpg
+INPUT .\images\surprise_cus_2.jpg
+INPUT .\images\surprise_cus_2.jpg
+INPUT .\images\surprise_cus_2.jpg
+INPUT .\images\surprise_cus_2.jpg
+INPUT .\images\Aff_Surprise_1.jpg
+INPUT .\images\Aff_Surprise_1.jpg
+INPUT .\images\Aff_Surprise_1.jpg
+INPUT .\images\Aff_Surprise_1.jpg
+INPUT .\images\Aff_Surprise_1.jpg
+INPUT .\images\Aff_Surprise_1.jpg
+INPUT .\images\Aff_Surprise_1.jpg
+INPUT .\images\5.jpg
+INPUT .\images\5.jpg
+INPUT .\images\5.jpg
+INPUT .\images\5.jpg
+INPUT .\images\5.jpg
+INPUT .\images\5.jpg
+INPUT .\images\5.jpg
+INPUT .\images\20.jpg
+INPUT .\images\20.jpg
+INPUT .\images\20.jpg
+INPUT .\images\20.jpg
+INPUT .\images\20.jpg
+INPUT .\images\20.jpg
+INPUT .\images\20.jpg
+INPUT .\images\9.jpg
+INPUT .\images\9.jpg
+INPUT .\images\9.jpg
+INPUT .\images\9.jpg
+INPUT .\images\9.jpg
+INPUT .\images\9.jpg
+INPUT .\images\9.jpg
+INPUT .\images\Surprise_1.jpg
+INPUT .\images\Surprise_1.jpg
+INPUT .\images\Surprise_1.jpg
+INPUT .\images\Surprise_1.jpg
+INPUT .\images\Surprise_1.jpg
+INPUT .\images\Surprise_1.jpg
+INPUT .\images\Surprise_1.jpg
+INPUT .\images\16437914.jpg
+INPUT .\images\16437914.jpg
+INPUT .\images\16437914.jpg
+INPUT .\images\16437914.jpg
+INPUT .\images\16437914.jpg
+INPUT .\images\16437914.jpg
+INPUT .\images\16437914.jpg
+INPUT .\images\Angry_4.jpg
+INPUT .\images\Angry_4.jpg
+INPUT .\images\Angry_4.jpg
+INPUT .\images\Angry_4.jpg
+INPUT .\images\Angry_4.jpg
+INPUT .\images\Angry_4.jpg
+INPUT .\images\Angry_4.jpg
+INPUT .\images\Fear_9.jpg
+INPUT .\images\Fear_9.jpg
+INPUT .\images\Fear_9.jpg
+INPUT .\images\Fear_9.jpg
+INPUT .\images\Fear_9.jpg
+INPUT .\images\Fear_9.jpg
+INPUT .\images\Fear_9.jpg
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ecti1095.tfm
+INPUT D:\MikTex app\fonts\tfm\jknappen\ec\ectt1728.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmr17.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\MikTex app\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT Emotion_Caption_Report.aux
+INPUT .\Emotion_Caption_Report.out
+INPUT .\Emotion_Caption_Report.out
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1728.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1728.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
+INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
+INPUT D:\MikTex app\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\MikTex app\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\MikTex app\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT D:\MikTex app\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT D:\MikTex app\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\MikTex app\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\MikTex app\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT D:\MikTex app\fonts\type1\public\amsfonts\cm\cmsy8.pfb

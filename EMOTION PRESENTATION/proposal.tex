@@ -1,0 +1,714 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Emotion-Aware Image Caption Generator}
+\subtitle{Machine Learning Project Proposal}
+% Empty author for footer - this removes names from bottom left
+\author{}
+% Store the actual author information for the title page only
+\newcommand{\authorinfo}{
+    \begin{tabular}{rl}
+    Team Name: & TeamML\_Newbies \\[0.3em]
+    \end{tabular}
+    
+    \vspace{0.3cm}
+    
+    \begin{tabular}{rl}
+    Anuron Maitro & (2105037) \\
+    Md. Asif Ali & (2105038) \\
+    Himadri Gobinda Biswas & (2105047)
+    \end{tabular}
+}
+
+\date{}
+
+\begin{document}
+
+% Slide 1: Title Page
+\begin{frame}
+    \titlepage
+    \vspace{-1cm}
+    \begin{center}
+        \authorinfo
+    \end{center}
+\end{frame}
+
+% Slide 2: Project Overview
+\begin{frame}{Project Overview}
+    \textbf{Project Title:} Emotion-Aware Image Caption Generator \\[0.5em]
+    \textbf{Domain:} Computer Vision \& Natural Language Processing \\[1em]
+    
+    \textbf{Core Idea:}
+    \begin{itemize}
+        \item Generate descriptive captions for images
+        \item Detect emotional expressions in human faces
+        \item Integrate emotion information into generated captions
+        \item Example: ``A person standing on a road'' $\rightarrow$ ``A person \textit{smiling happily} standing on a road''
+    \end{itemize}
+    
+    \vspace{0.3cm}
+    \textbf{Innovation:}
+    \begin{itemize}
+        \item Goes beyond standard image captioning by adding emotional context
+        \item Provides richer, more descriptive image understanding
+    \end{itemize}
+\end{frame}
+
+% Slide 3: Motivation
+% \begin{frame}{Motivation \& Applications}
+%     \textbf{Why Emotion-Aware Captions?}
+%     \begin{itemize}
+%         \item Standard captioning: ``A woman in a park''
+%         \item Emotion-aware: ``A woman \textit{looking sad} in a park''
+%         \item Emotional context adds significant meaning to descriptions
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Real-World Applications:}
+%     \begin{itemize}
+%         \item \textbf{Accessibility:} Better image descriptions for visually impaired users
+%         \item \textbf{Social Media:} Automated caption generation with emotional context
+%         \item \textbf{Content Moderation:} Understanding emotional content in images
+%         \item \textbf{Healthcare:} Analyzing patient emotional states in medical imaging
+%         \item \textbf{Security:} Emotion detection in surveillance systems
+%     \end{itemize}
+% \end{frame}
+
+% Slide 4: Problem Statement
+\begin{frame}{Problem Statement}
+    \textbf{Current Limitations of Image Captioning:}
+    \begin{itemize}
+        \item Existing models describe \textit{what} is in the image
+        \item They fail to capture \textit{how} people feel in the image
+        \item Emotional state provides critical context for understanding
+    \end{itemize}
+    
+    \vspace{0.5cm}
+    \textbf{Our Goal:}
+    \begin{itemize}
+        \item Build a system that generates captions with emotional awareness
+        \item Automatically detect facial expressions and emotions
+        \item Intelligently integrate emotion information into captions
+        \item Create more human-like, contextually rich descriptions
+    \end{itemize}
+    
+    \vspace{0.5cm}
+    \textbf{Challenge:}
+    \begin{itemize}
+        \item Combine two complex tasks: caption generation + emotion detection
+        \item Ensure natural language integration of emotion phrases
+    \end{itemize}
+\end{frame}
+
+% Slide 5: Proposed Architecture
+\begin{frame}{Proposed System Architecture}
+    Our system consists of three main components:
+    
+    \vspace{0.5cm}
+    \textbf{Component 1: Base Caption Generation}
+    \begin{itemize}
+        \item Vision Transformer (ViT) as encoder
+        \item GPT-2 as decoder
+        \item Fine-tuned on Flickr8k dataset
+    \end{itemize}
+    
+    \vspace{0.3cm}
+    \textbf{Component 2: Emotion Detection}
+    \begin{itemize}
+        \item Pre-trained DeepFace model
+        \item Detects 7 emotions: happy, sad, angry, surprise, fear, disgust, neutral
+    \end{itemize}
+    
+    \vspace{0.3cm}
+    \textbf{Component 3: Caption Enhancement}
+    \begin{itemize}
+        \item Custom NLP processing using NLTK
+        \item Intelligently inserts emotion phrases into captions
+    \end{itemize}
+\end{frame}
+
+% % Slide 6: Component 1 - Caption Generation
+% \begin{frame}{Component 1: Base Caption Generation}
+%     \textbf{Model Architecture:} Vision Transformer + GPT-2
+    
+%     \vspace{0.5cm}
+%     \textbf{Why Vision Transformer (ViT)?}
+%     \begin{itemize}
+%         \item State-of-the-art performance in image understanding
+%         \item Better at capturing global image context than CNNs
+%         % \item Pre-trained on ImageNet (14M images)
+%         \item Effective encoder for vision-language tasks
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Why GPT-2?}
+%     \begin{itemize}
+%         \item Powerful language generation capabilities
+%         % \item Pre-trained on 40GB of text data
+%         \item Generates coherent, grammatically correct sentences
+%         \item Works well as decoder in vision-to-text tasks
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Training Approach:}
+%     \begin{itemize}
+%         \item Fine-tune the combined ViT-GPT2 model on Flickr8k dataset
+%     \end{itemize}
+% \end{frame}
+
+% % Slide 7: Component 2 - Emotion Detection
+% \begin{frame}{Component 2: Emotion Detection}
+%     \textbf{Model:} DeepFace (Pre-trained)
+    
+%     \vspace{0.5cm}
+%     \textbf{Why DeepFace?}
+%     \begin{itemize}
+%         \item State-of-the-art facial emotion recognition
+%         \item Already trained on large facial expression datasets
+%         \item No additional training required
+%         \item Detects 7 basic emotions with high accuracy
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Detected Emotions:}
+%     \begin{itemize}
+%         \item Happy, Sad, Angry, Surprise, Fear, Disgust, Neutral
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Implementation Plan:}
+%     \begin{itemize}
+%         \item Use pre-trained weights (no training needed)
+%         \item Apply to input images to detect facial emotions
+%     %     \item Extract dominant emotion with confidence score
+%     %     \item Only use emotions with confidence $>$ 30\%
+%     \end{itemize}
+% \end{frame}
+
+% % Slide 8: Component 3 - Caption Enhancement
+% \begin{frame}{Component 3: Caption Enhancement}
+%     \textbf{Natural Language Processing with NLTK}
+    
+%     \vspace{0.5cm}
+%     \textbf{Why NLTK?}
+%     \begin{itemize}
+%         \item Comprehensive toolkit for text processing
+%         \item Provides part-of-speech tagging and tokenization
+%         \item Allows custom rule-based text manipulation
+%         \item Suitable for intelligent phrase insertion
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Enhancement Process:}
+%     \begin{enumerate}
+%         \item Receive base caption from ViT-GPT2 model
+%         \item Receive emotion data from DeepFace
+%         \item Tokenize caption and perform POS tagging
+%         \item Identify person-related nouns (person, man, woman, child)
+%         \item Insert emotion phrase after identified person noun
+%         \item Return enhanced caption
+%     \end{enumerate}
+    
+%     % \vspace{0.3cm}
+%     % \textbf{Example Emotion Phrases:}
+%     % \begin{itemize}
+%     %     \item Happy $\rightarrow$ ``smiling happily''
+%     %     \item Sad $\rightarrow$ ``looking sad''
+%     % \end{itemize}
+% \end{frame}
+
+% Slide 9: Emotion Phrase Mapping
+\begin{frame}{Emotion to Phrase Mapping}
+    \textbf{Custom Mapping Strategy:}
+    
+    \vspace{0.5cm}
+    We will create natural descriptive phrases for each emotion:
+    
+    \vspace{0.5cm}
+    \begin{center}
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Detected Emotion} & \textbf{Caption Phrase} \\
+    \hline
+    Happy & ``smiling happily'' \\
+    Sad & ``looking sad'' \\
+    Angry & ``looking angry'' \\
+    Surprise & ``looking surprised'' \\
+    Fear & ``looking worried'' \\
+    Disgust & ``looking disgusted'' \\
+    Neutral & ``with calm expression'' \\
+    \hline
+    \end{tabular}
+    \end{center}
+    
+    \vspace{0.5cm}
+    These phrases are designed to:
+    \begin{itemize}
+        \item Sound natural in English sentences
+        \item Accurately represent the detected emotion
+        % \item Integrate seamlessly into generated captions
+    \end{itemize}
+\end{frame}
+
+% Slide 10: Dataset
+\begin{frame}{Dataset: Flickr8k}
+    \textbf{Primary Dataset:} Flickr8k from Kaggle
+    
+    \vspace{0.5cm}
+    \textbf{Dataset Statistics:}
+    \begin{itemize}
+        \item \textbf{Total Images:} 8,091 images
+        \item \textbf{Total Captions:} $\sim$40,000 (5 captions per image)
+        \item \textbf{Content:} Diverse real-world scenes with people, objects, activities
+    \end{itemize}
+    
+    \vspace{0.5cm}
+    \textbf{Why Flickr8k?}
+    \begin{itemize}
+        \item Well-established benchmark for image captioning
+        \item Contains human-written reference captions
+        \item Manageable size for training with limited resources
+        \item Diverse image content suitable for testing emotion detection
+    \end{itemize}
+    
+    % \vspace{0.5cm}
+    \textbf{Data Split Plan:}
+    \begin{itemize}
+        \item Training Set: 80\% (6,472 images)
+        \item Validation Set: 10\% (809 images)
+        \item Test Set: 10\% (810 images)
+    \end{itemize}
+\end{frame}
+
+% Slide 11: System Pipeline
+% \begin{frame}{Complete System Pipeline}
+%     \textbf{Step-by-Step Processing:}
+    
+%     \vspace{0.5cm}
+%     \begin{enumerate}
+%         \item \textbf{Input:} Receive image from user
+%         \vspace{0.2cm}
+        
+%         \item \textbf{Caption Generation:}
+%         \begin{itemize}
+%             \item Pass image through ViT encoder
+%             \item Generate caption using GPT-2 decoder
+%             \item Output: Base caption (e.g., ``A person on a beach'')
+%         \end{itemize}
+%         \vspace{0.2cm}
+        
+%         \item \textbf{Emotion Detection:}
+%         \begin{itemize}
+%             \item Pass image to DeepFace model
+%             \item Detect facial emotions if face is present
+%             \item Output: Dominant emotion with confidence
+%         \end{itemize}
+%         \vspace{0.2cm}
+        
+%         \item \textbf{Caption Enhancement:}
+%         \begin{itemize}
+%             \item Use NLTK to parse base caption
+%             \item Insert emotion phrase at appropriate position
+%             \item Output: Enhanced caption (e.g., ``A person \textit{smiling happily} on a beach'')
+%         \end{itemize}
+%         \vspace{0.2cm}
+        
+%         \item \textbf{Output:} Return emotion-aware caption to user
+%     \end{enumerate}
+% \end{frame}
+
+% % Slide 12: Training Strategy
+% \begin{frame}{Training Strategy}
+%     \textbf{Phase 1: Caption Model Fine-tuning}
+%     \begin{itemize}
+%         \item Load pre-trained ViT and GPT-2 weights
+%         \item Combine into VisionEncoderDecoder architecture
+%         \item Fine-tune on Flickr8k training set
+%         \item Hyperparameters:
+%         \begin{itemize}
+%             \item Batch size: 8
+%             \item Learning rate: 5e-5
+%             \item Epochs: 3-5
+%             \item Max caption length: 50 tokens
+%         \end{itemize}
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Phase 2: Emotion Detection Integration}
+%     \begin{itemize}
+%         \item Use pre-trained DeepFace (no training needed)
+%         \item Apply to test images for emotion extraction
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Phase 3: Caption Enhancement}
+%     \begin{itemize}
+%         \item Implement custom NLTK-based enhancement logic
+%         \item Test emotion phrase insertion quality
+%     \end{itemize}
+% \end{frame}
+
+% % Slide 13: Evaluation Metrics
+% \begin{frame}{Evaluation Metrics}
+%     We will evaluate our system using both quantitative and qualitative metrics:
+    
+%     \vspace{0.5cm}
+%     \textbf{Caption Quality Metrics:}
+%     \begin{itemize}
+%         \item \textbf{BLEU Score:} Measures n-gram overlap with reference captions
+%         \item \textbf{METEOR:} Evaluates caption quality considering synonyms
+%         \item \textbf{ROUGE-L:} Measures longest common subsequence
+%         \item \textbf{CIDEr:} Consensus-based image description evaluation
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Emotion Detection Metrics:}
+%     \begin{itemize}
+%         \item Emotion detection success rate
+%         \item Confidence score distribution
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Human Evaluation:}
+%     \begin{itemize}
+%         \item Manual assessment of caption naturalness
+%         \item Evaluation of emotion relevance and accuracy
+%     \end{itemize}
+% \end{frame}
+
+% Slide 14: Expected Challenges
+% \begin{frame}{Expected Challenges \& Solutions}
+%     \textbf{Challenge 1: Emotion Detection Limitations}
+%     \begin{itemize}
+%         \item Faces may be too small, angled, or occluded
+%         \item \textit{Solution:} Set confidence threshold; gracefully handle cases with no face
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Challenge 2: Natural Language Integration}
+%     \begin{itemize}
+%         \item Inserting emotion phrases must sound natural
+%         \item \textit{Solution:} Carefully design phrase insertion logic using POS tagging
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Challenge 3: Training Resources}
+%     \begin{itemize}
+%         \item ViT-GPT2 training requires significant GPU resources
+%         \item \textit{Solution:} Use Google Colab or Kaggle with GPU acceleration
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Challenge 4: Caption Quality}
+%     \begin{itemize}
+%         \item Generated captions may be generic or inaccurate
+%         \item \textit{Solution:} Careful hyperparameter tuning and sufficient training epochs
+%     \end{itemize}
+% \end{frame}
+
+% Slide 15: Implementation Plan
+% \begin{frame}{Implementation Timeline}
+%     \textbf{Week 1: Setup \& Data Preparation}
+%     \begin{itemize}
+%         \item Set up development environment (Kaggle/Colab)
+%         \item Download and prepare Flickr8k dataset
+%         \item Install required libraries (transformers, deepface, nltk)
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Week 2: Base Caption Model}
+%     \begin{itemize}
+%         \item Implement ViT-GPT2 model architecture
+%         \item Fine-tune on Flickr8k training set
+%         \item Evaluate caption quality on validation set
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Week 3: Emotion Detection \& Integration}
+%     \begin{itemize}
+%         \item Integrate DeepFace emotion detection
+%         \item Implement NLTK-based caption enhancement
+%         \item Test complete pipeline on sample images
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Week 4: Evaluation \& Refinement}
+%     \begin{itemize}
+%         \item Comprehensive testing on test set
+%         \item Calculate evaluation metrics (BLEU, METEOR, ROUGE)
+%         \item Fine-tune and improve results
+%     \end{itemize}
+% \end{frame}
+
+% % Slide 16: Technology Stack
+% \begin{frame}{Technology Stack}
+%     \textbf{Programming Language:}
+%     \begin{itemize}
+%         \item Python 3.8+
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Deep Learning Frameworks:}
+%     \begin{itemize}
+%         \item PyTorch (for model training)
+%         \item Hugging Face Transformers (ViT, GPT-2)
+%         \item TensorFlow/Keras (for DeepFace)
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Key Libraries:}
+%     \begin{itemize}
+%         \item \textbf{transformers:} Pre-trained ViT and GPT-2 models
+%         \item \textbf{deepface:} Facial emotion recognition
+%         \item \textbf{nltk:} Natural language processing
+%         \item \textbf{opencv:} Image processing
+%         \item \textbf{evaluate:} Metric computation (BLEU, METEOR, ROUGE)
+%     \end{itemize}
+    
+%     \vspace{0.3cm}
+%     \textbf{Computing Platform:}
+%     \begin{itemize}
+%         \item Kaggle Notebooks or Google Colab (with GPU)
+%     \end{itemize}
+% \end{frame}
+
+% % Slide 17: Expected Outcomes
+% \begin{frame}{Expected Outcomes}
+%     \textbf{Deliverables:}
+%     \begin{itemize}
+%         \item Fully functional emotion-aware caption generation system
+%         \item Fine-tuned ViT-GPT2 model for image captioning
+%         \item Integrated emotion detection pipeline
+%         \item Well-documented codebase
+%         \item Comprehensive evaluation report
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Learning Outcomes:}
+%     \begin{itemize}
+%         \item Understanding of Vision Transformer architecture
+%         \item Experience with transfer learning and fine-tuning
+%         \item Knowledge of multi-modal AI (vision + language)
+%         \item Practical experience with pre-trained models
+%         \item Skills in NLP and emotion recognition
+%     \end{itemize}
+    
+%     % \vspace{0.5cm}
+%     \textbf{Innovation:}
+%     \begin{itemize}
+%         \item Novel combination of caption generation and emotion detection
+%         \item More descriptive and context-aware image understanding
+%     \end{itemize}
+% \end{frame}
+
+% % Slide 18: Sample Expected Results
+% \begin{frame}{Sample Expected Results}
+%     \textbf{Example 1:}
+%     \begin{itemize}
+%         \item \textbf{Input:} Image of person celebrating
+%         \item \textbf{Base Caption:} ``A person jumping in the air''
+%         \item \textbf{Detected Emotion:} Happy
+%         \item \textbf{Enhanced Caption:} ``A person \textit{smiling happily} jumping in the air''
+%     \end{itemize}
+    
+   
+%     \textbf{Example 2:}
+%     \begin{itemize}
+%         \item \textbf{Input:} Image of person sitting alone
+%         \item \textbf{Base Caption:} ``A woman sitting on a bench''
+%         \item \textbf{Detected Emotion:} Sad
+%         \item \textbf{Enhanced Caption:} ``A woman \textit{looking sad} sitting on a bench''
+%     \end{itemize}
+    
+   
+%     \textbf{Example 3:}
+%     \begin{itemize}
+%         \item \textbf{Input:} Image of landscape (no face)
+%         \item \textbf{Base Caption:} ``A mountain with trees''
+%         \item \textbf{Detected Emotion:} None
+%         \item \textbf{Enhanced Caption:} ``A mountain with trees'' (unchanged)
+%     \end{itemize}
+% \end{frame}
+
+% New Slide: Project Intent
+\begin{frame}{What We Intend to Do}
+    \textbf{Core Functional Workflow:}
+    \begin{itemize}
+        \item \textbf{Universal Base Captioning:} 
+        A basic, descriptive caption will be generated for every input image processed by the system.
+        
+        \item \textbf{Conditional Emotion Analysis:} 
+        The system will concurrently analyze the image for emotional expressions using the DeepFace model.
+        
+        \item \textbf{Selective Enhancement:} 
+        An emotion-aware caption will be generated \textit{only} if a specific emotion is successfully detected in the image.
+    \end{itemize}
+
+    \vspace{0.5cm}
+
+    \begin{block}{The Processing Logic}
+        \centering
+        $\text{Image} \rightarrow \text{Base Caption} + (\text{Detected Emotion} \rightarrow \text{Enhanced Caption})$
+    \end{block}
+
+    % \vspace{0.3cm}
+    % \textbf{Key Objective:}
+    % \begin{itemize}
+    %     \item To provide contextually rich descriptions when human elements are present, while maintaining standard accuracy for landscape or inanimate scenes[cite: 2, 43].
+    % \end{itemize}
+\end{frame}
+
+% Slide 18: Sample Expected Results
+\begin{frame}{Sample Expected Result}
+    \begin{columns}[t]
+        % Left Column: Original Image & Base Caption
+        \begin{column}{0.45\textwidth}
+            \centering
+            \includegraphics[width=\textwidth, height=4cm, keepaspectratio]{cycleKid.jpg}
+            \vspace{0.2cm}
+            \begin{block}{Base Caption}
+                \centering \small
+                ``A child riding a bicycle on a road'' 
+            \end{block}
+        \end{column}
+
+        % Right Column: Same Image & Enhanced Caption
+        \begin{column}{0.45\textwidth}
+            \centering
+            \includegraphics[width=\textwidth, height=4cm, keepaspectratio]{cycleKid.jpg}
+            \vspace{0.2cm}
+            \begin{block}{Enhanced Caption}
+                \centering \small
+                ``A child \textit{looking worried} riding a bicycle on a road'' 
+            \end{block}
+        \end{column}
+    \end{columns}
+    
+    % \vspace{0.5cm}
+    % \begin{center}
+    %     \footnotesize \textit{Note: The system identifies the dominant emotion (e.g., Happy) and integrates it into the base description.} 
+    % \end{center}
+\end{frame}
+
+% Slide 19: Future Extensions
+% \begin{frame}{Potential Future Extensions}
+%     \textbf{Short-term Improvements:}
+%     \begin{itemize}
+%         \item Support for multiple people with different emotions
+%         \item More sophisticated emotion phrase generation
+%         \item Handling of group emotions (e.g., crowd sentiment)
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Long-term Enhancements:}
+%     \begin{itemize}
+%         \item Real-time video caption generation with emotion tracking
+%         \item Multi-lingual emotion-aware captions
+%         \item Integration with larger vision-language models (CLIP, BLIP)
+%         \item Fine-grained emotion classification (beyond 7 basic emotions)
+%         \item Body language and gesture analysis for emotion detection
+%     \end{itemize}
+    
+%     \vspace{0.5cm}
+%     \textbf{Applications:}
+%     \begin{itemize}
+%         \item Mobile app for photo captioning
+%         \item Accessibility tool for visual assistance
+%         \item Social media content understanding
+%     \end{itemize}
+% \end{frame}
+
+% Slide 20: References
+% \begin{frame}{References}
+%     \textbf{Key Papers \& Resources:}
+%     \begin{enumerate}
+%         \item Dosovitskiy et al., ``An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'', ICLR 2021
+%         \item Radford et al., ``Language Models are Unsupervised Multitask Learners'', OpenAI 2019
+%         \item Serengil \& Ozpinar, ``HyperExtended LightFace: A Facial Attribute Analysis Framework'', ICEET 2021 (DeepFace)
+%         \item Hodosh et al., ``Framing Image Description as a Ranking Task'', JAIR 2013 (Flickr8k)
+%         \item Hugging Face Transformers Documentation
+%         \item DeepFace Library Documentation
+%     \end{enumerate}
+    
+%     \vspace{0.5cm}
+%     \textbf{Datasets:}
+%     \begin{itemize}
+%         \item Flickr8k: \url{https://www.kaggle.com/datasets/adityajn105/flickr8k}
+%     \end{itemize}
+% \end{frame}
+
+% Slide: Existing Works
+\begin{frame}{Existing Works}
+    \textbf{Related Research:}
+    
+    \vspace{0.5cm}
+    
+    \textbf{1. Image Caption Generation using ViT and GPT Architecture}
+    \begin{itemize}
+        \item IEEE Conference Publication (2024)
+        \item \small \url{https://ieeexplore.ieee.org/document/10551257}
+    \end{itemize}
+    
+    \vspace{0.4cm}
+    
+    \textbf{2. Image Captioning by Incorporating Affective Concepts}
+    \begin{itemize}
+        \item ScienceDirect (2018)
+        \item Uses a very different approach and different dataset from ours
+        \item \small \url{https://www.cs.nthu.edu.tw/~lai/pdf/publications/2019/Image_captioning_by_incorporating_affective_concepts_learned_from_both_visual_and_textual_components.pdf}
+    \end{itemize}
+    
+    \vspace{0.4cm}
+    
+    \textbf{3. Human Emotion Detection Using DeepFace and AI}
+    \begin{itemize}
+        \item MDPI (2023)
+        \item \small \url{https://www.mdpi.com/2673-4591/59/1/37}
+    \end{itemize}
+\end{frame}
+
+% Slide: Project Progression Plan
+\begin{frame}{Project Progression Plan}
+    \textbf{25\% Update:}
+    \begin{itemize}
+        \item Complete environment setup and install all required libraries
+        \item Successfully run the project for base image captioning (without emotion detection)
+        \item Get a basic caption from image (caption might be gibberish at this point)
+    \end{itemize}
+    
+    \vspace{0.4cm}
+    
+    \textbf{50\% Update :}
+    \begin{itemize}
+        \item Implement and integrate emotion detection using DeepFace
+        \item Develop NLP-based emotion phrase insertion using NLTK
+        \item Define some basic evaluation methodology for emotion-aware captioning(might not comprehensive yet)
+        \item Generate emotion-aware captions for sample images(at this point caption with emotion phrase might not be fully syntactically correct)
+        \item Try to test  emotion detection accuracy on sample images
+    \end{itemize}
+    
+    \vspace{0.4cm}
+\end{frame}
+\begin{frame}{Project Progression Plan}    
+    \textbf{100\% Update (Final Report):}
+    \begin{itemize}
+        \item Improving the emotion phrase integration as much as possible
+        \item Reduce generation of gibberish captions through extensive testing(produce almost meaningful captions)
+        \item Complete comprehensive evaluation on test dataset
+        \item Deliver final system with documentation and results analysis
+    \end{itemize}
+\end{frame}
+% Slide: Thank You
+\begin{frame}
+    \centering
+    \Huge Thank You!\\
+    % \vspace{1cm}
+    % \Large Questions?
+\end{frame}
+
+\end{document}

@@ -1,0 +1,64 @@
+\contentsline {section}{\numberline {1}Introduction and Motivation}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Background}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Motivation}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Problem Statement}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Our Approach}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Contributions}{5}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Related Work}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Image Caption Generation using ViT and GPT}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Affective Image Captioning}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Emotion Detection with Deep Learning}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}System Architecture}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Overview}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Base Captioning Architecture: ViT + GPT-2}{7}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Vision Transformer Encoder}{7}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}GPT-2 Decoder}{9}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Complete Emotion-Aware Pipeline}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Emotion Detection: DeepFace}{13}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Emotion Integration: NLTK-based Grammatical Insertion}{13}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Dataset and Training}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Flickr30k Dataset}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Training Configuration}{15}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Implementation Details}{16}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Model Architecture Implementation}{16}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Vision Transformer (vit.py)}{16}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}GPT-2 Decoder (gpt.py)}{16}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Caption Model (caption\_model.py)}{16}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Emotion Processing (emotion.py)}{16}{subsubsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.2}Dependencies}{17}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Evaluation Metrics and Results}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Evaluation Methodology}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Quantitative Results}{17}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Qualitative Results: Emotion-Aware Captions}{18}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Error Analysis}{43}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Reference Paper Architecture Diagrams}{43}{section.7}%
+\contentsline {section}{\numberline {8}Deployment}{46}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Deployment Architecture}{46}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Backend Deployment: HuggingFace Spaces}{46}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Technology Stack}{46}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}API Endpoints}{46}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Model Storage Strategy}{47}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}CORS Configuration}{47}{subsubsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.5}Backend URL}{47}{subsubsection.8.2.5}%
+\contentsline {subsection}{\numberline {8.3}Frontend Deployment: Vercel}{47}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Technology Stack}{47}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}User Interface Features}{48}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Frontend URL}{48}{subsubsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.4}Deployment Challenges and Solutions}{48}{subsection.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.1}Challenge 1: Model Size Exceeds Storage Limit}{48}{subsubsection.8.4.1}%
+\contentsline {subsubsection}{\numberline {8.4.2}Challenge 2: Package Dependency Conflicts}{48}{subsubsection.8.4.2}%
+\contentsline {subsubsection}{\numberline {8.4.3}Challenge 3: Debian Package Changes}{48}{subsubsection.8.4.3}%
+\contentsline {subsubsection}{\numberline {8.4.4}Challenge 4: DeepFace TensorFlow Compatibility}{48}{subsubsection.8.4.4}%
+\contentsline {subsection}{\numberline {8.5}Performance Characteristics}{49}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Repository and Documentation}{49}{subsection.8.6}%
+\contentsline {section}{\numberline {9}Conclusion and Future Work}{49}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Summary of Achievements}{49}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Limitations}{50}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Future Work}{50}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}1. Advanced Emotion Integration}{50}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}2. Multiple Emotion Handling}{50}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.3}3. Richer Emotion Representations}{51}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.4}4. Improved Evaluation}{51}{subsubsection.9.3.4}%
+\contentsline {subsubsection}{\numberline {9.3.5}5. Deployment Optimizations}{51}{subsubsection.9.3.5}%
+\contentsline {subsubsection}{\numberline {9.3.6}6. Broader Applications}{51}{subsubsection.9.3.6}%
+\contentsline {subsection}{\numberline {9.4}Concluding Remarks}{51}{subsection.9.4}%
