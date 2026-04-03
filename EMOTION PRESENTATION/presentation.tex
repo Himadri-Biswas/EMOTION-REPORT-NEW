@@ -847,13 +847,12 @@
         \item Adjective insertion can be grammatically awkward (e.g., plural nouns)
         \item Only dominant emotion from most prominent face is used
         \item Semantic mismatch: ``disgusted person'' vs.\ the intended meaning
-        \item BLEU scores lower than reference paper due to resource constraints
+        \item Little gibberish base captions on completely new images
     \end{itemize}
 
     \vspace{0.4cm}
     \textbf{Future Directions:}
     \begin{itemize}
-        \item \textbf{End-to-end training} with emotion as a direct input signal
         \item \textbf{Multiple face} emotion handling per image
         \item \textbf{Semantic validators} for more natural adjective choice
         \item \textbf{Model quantization} to reduce size and cold-start time
@@ -884,7 +883,7 @@
     \begin{block}{Summary of Achievements}
         \begin{itemize}
             \item Built a complete \textbf{3-stage emotion-aware image captioning pipeline}
-            \item Achieved \textbf{METEOR 22.59\%} on Flickr30k test set
+            \item Achieved \textbf{METEOR 44.18\%} on Flickr30k dataset
             \item Successfully integrated \textbf{7-category emotion detection} via DeepFace
             \item Deployed as a \textbf{live web application} at zero cost
             \item Full open codebase on Kaggle Notebook
@@ -906,7 +905,6 @@
     \centering
     \vspace{1cm}
     {\Huge \textbf{Thank You!}}\\[1cm]
-    {\large Questions?}\\[1.5cm]
     \begin{tabular}{rl}
     \textbf{Live Demo:} & \url{https://emotion-caption-frontend.vercel.app} \\[0.4em]
     \textbf{Team:}      & TeamML Newbies \\
