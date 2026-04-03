@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1775200255.018 "e:/EMOTION ALL/EMOTION REPORT/EMOTION PRESENTATION/presentation.tex" "presentation.pdf" "presentation" 1775200258.16176 0
+["pdflatex"] 1775211934.87974 "e:/EMOTION ALL/EMOTION REPORT/EMOTION PRESENTATION/presentation.tex" "presentation.pdf" "presentation" 1775211937.95056 0
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1775125475.14916 81088 29d6fa367ac022d1b69251d68c0742e6 ""
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcss1095.pk" 1775046398.41408 11640 1f20d25d9fe767cca846c03036ff9750 ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746534139.27303 24210777 efba2e688292e32bc80e83e77e5b8547 ""
@@ -297,10 +297,10 @@
   "SlideImages/neutral_1.jpg" 1771487759.35463 49870 f958c789990346341443789a1e15d227 ""
   "SlideImages/sad_1.jpg" 1771487759.3469 28687 82195d5082f8ae3de4908d27099d71cb ""
   "SlideImages/surprise_1.jpg" 1771439196.06176 98824 6505a3202ff10c60e2b85394fde55d05 ""
-  "e:/EMOTION ALL/EMOTION REPORT/EMOTION PRESENTATION/presentation.tex" 1775200254.24849 45975 6e177347068a94c796f8fe5a162e2b04 ""
-  "presentation.aux" 1775200257.87616 4044 9ee2bdea6499c6bb44eee0d35090fb75 "pdflatex"
-  "presentation.nav" 1775200257.87916 2783 f8b0d1eaf383f71e4268670ac899f7e1 "pdflatex"
-  "presentation.out" 1775200256.35287 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "e:/EMOTION ALL/EMOTION REPORT/EMOTION PRESENTATION/presentation.tex" 1775211934.3689 46037 7740dbc70f43c6467d009437159a9ac6 ""
+  "presentation.aux" 1775211937.64098 4044 9ee2bdea6499c6bb44eee0d35090fb75 "pdflatex"
+  "presentation.nav" 1775211937.645 2783 f8b0d1eaf383f71e4268670ac899f7e1 "pdflatex"
+  "presentation.out" 1775211936.12791 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "presentation.aux"
   "presentation.log"

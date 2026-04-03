@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.6)  3 APR 2026 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.6)  3 APR 2026 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -920,7 +920,7 @@ Overfull \vbox (9.83534pt too high) detected at line 188
 ] [5
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 288.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 289.
  (D:\MikTex app\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [6
@@ -928,7 +928,7 @@ File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ] [7
 
 ]
-Overfull \vbox (0.2432pt too high) detected at line 381
+Overfull \vbox (0.2432pt too high) detected at line 382
  []
 
 [8
@@ -936,7 +936,7 @@ Overfull \vbox (0.2432pt too high) detected at line 381
 ] [9
 
 ]
-Overfull \vbox (7.47035pt too high) detected at line 457
+Overfull \vbox (7.47035pt too high) detected at line 458
  []
 
 [10
@@ -946,7 +946,7 @@ Overfull \vbox (7.47035pt too high) detected at line 457
 ] [12
 
 ]
-Overfull \vbox (21.51672pt too high) detected at line 604
+Overfull \vbox (21.51672pt too high) detected at line 605
  []
 
 [13
@@ -957,7 +957,7 @@ Overfull \vbox (21.51672pt too high) detected at line 604
 <SlideImages/happy_1.jpg, id=533, 602.25pt x 903.375pt>
 File: SlideImages/happy_1.jpg Graphic file (type jpg)
 <use SlideImages/happy_1.jpg>
-Package pdftex.def Info: SlideImages/happy_1.jpg  used on input line 657.
+Package pdftex.def Info: SlideImages/happy_1.jpg  used on input line 658.
 (pdftex.def)             Requested size: 79.66449pt x 119.49673pt.
  [15
 
@@ -966,7 +966,7 @@ pdfTeX warning (ext1): too small image resolution ignored
 <SlideImages/sad_1.jpg, id=584, 501.875pt x 376.40625pt>
 File: SlideImages/sad_1.jpg Graphic file (type jpg)
 <use SlideImages/sad_1.jpg>
-Package pdftex.def Info: SlideImages/sad_1.jpg  used on input line 676.
+Package pdftex.def Info: SlideImages/sad_1.jpg  used on input line 677.
 (pdftex.def)             Requested size: 159.33205pt x 119.49904pt.
 [16
 
@@ -974,7 +974,7 @@ Package pdftex.def Info: SlideImages/sad_1.jpg  used on input line 676.
 <SlideImages/angry_1.jpg, id=633, 501.875pt x 334.24875pt>
 File: SlideImages/angry_1.jpg Graphic file (type jpg)
 <use SlideImages/angry_1.jpg>
-Package pdftex.def Info: SlideImages/angry_1.jpg  used on input line 695.
+Package pdftex.def Info: SlideImages/angry_1.jpg  used on input line 696.
 (pdftex.def)             Requested size: 179.43427pt x 119.50322pt.
  [17
 
@@ -982,7 +982,7 @@ Package pdftex.def Info: SlideImages/angry_1.jpg  used on input line 695.
 <SlideImages/surprise_1.jpg, id=679, 602.25pt x 752.8125pt>
 File: SlideImages/surprise_1.jpg Graphic file (type jpg)
 <use SlideImages/surprise_1.jpg>
-Package pdftex.def Info: SlideImages/surprise_1.jpg  used on input line 714.
+Package pdftex.def Info: SlideImages/surprise_1.jpg  used on input line 715.
 (pdftex.def)             Requested size: 95.59923pt x 119.49904pt.
  [18
 
@@ -990,7 +990,7 @@ Package pdftex.def Info: SlideImages/surprise_1.jpg  used on input line 714.
 <SlideImages/fear_1.jpg, id=725, 100.27463pt x 150.5625pt>
 File: SlideImages/fear_1.jpg Graphic file (type jpg)
 <use SlideImages/fear_1.jpg>
-Package pdftex.def Info: SlideImages/fear_1.jpg  used on input line 733.
+Package pdftex.def Info: SlideImages/fear_1.jpg  used on input line 734.
 (pdftex.def)             Requested size: 79.59094pt x 119.50592pt.
  [19
 
@@ -998,7 +998,7 @@ Package pdftex.def Info: SlideImages/fear_1.jpg  used on input line 733.
 <SlideImages/disgust_1.jpg, id=775, 120.45pt x 80.2197pt>
 File: SlideImages/disgust_1.jpg Graphic file (type jpg)
 <use SlideImages/disgust_1.jpg>
-Package pdftex.def Info: SlideImages/disgust_1.jpg  used on input line 752.
+Package pdftex.def Info: SlideImages/disgust_1.jpg  used on input line 753.
 (pdftex.def)             Requested size: 179.4321pt x 119.50179pt.
  [20
 
@@ -1006,7 +1006,7 @@ Package pdftex.def Info: SlideImages/disgust_1.jpg  used on input line 752.
 <SlideImages/neutral_1.jpg, id=821, 501.875pt x 343.2825pt>
 File: SlideImages/neutral_1.jpg Graphic file (type jpg)
 <use SlideImages/neutral_1.jpg>
-Package pdftex.def Info: SlideImages/neutral_1.jpg  used on input line 771.
+Package pdftex.def Info: SlideImages/neutral_1.jpg  used on input line 772.
 (pdftex.def)             Requested size: 174.70929pt x 119.50114pt.
  [21
 
@@ -1014,7 +1014,7 @@ Package pdftex.def Info: SlideImages/neutral_1.jpg  used on input line 771.
 <SlideImages/anuron_happy.png, id=867, 404.26031pt x 668.4975pt>
 File: SlideImages/anuron_happy.png Graphic file (type png)
 <use SlideImages/anuron_happy.png>
-Package pdftex.def Info: SlideImages/anuron_happy.png  used on input line 782.
+Package pdftex.def Info: SlideImages/anuron_happy.png  used on input line 783.
 (pdftex.def)             Requested size: 129.16855pt x 213.59715pt.
  [22
 
@@ -1022,12 +1022,12 @@ Package pdftex.def Info: SlideImages/anuron_happy.png  used on input line 782.
 <SlideImages/anuron_angry.png, id=897, 400.49625pt x 666.23906pt>
 File: SlideImages/anuron_angry.png Graphic file (type png)
 <use SlideImages/anuron_angry.png>
-Package pdftex.def Info: SlideImages/anuron_angry.png  used on input line 793.
+Package pdftex.def Info: SlideImages/anuron_angry.png  used on input line 794.
 (pdftex.def)             Requested size: 128.39363pt x 213.58716pt.
  [23
 
  <./SlideImages/anuron_angry.png>]
-Overfull \vbox (65.3225pt too high) detected at line 838
+Overfull \vbox (65.3225pt too high) detected at line 839
  []
 
 [24
@@ -1071,7 +1071,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,786b,921s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmss12.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmss9.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmssi10.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/MikTex app/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on presentation.pdf (28 pages, 1365186 bytes).
+Output written on presentation.pdf (28 pages, 1365365 bytes).
 PDF statistics:
  1158 PDF objects out of 1200 (max. 8388607)
  57 named destinations out of 1000 (max. 500000)

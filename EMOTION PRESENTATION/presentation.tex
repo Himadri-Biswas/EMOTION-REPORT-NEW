@@ -252,9 +252,10 @@
 \node[block, fill=orange!30] (input) {Input Image\\224\texttimes224\texttimes3};
 
 \node[block, below=of input] (patch) {Patch Embedding\\16\texttimes16 patches};
-\node[lbl, right=0.3cm of patch] {196 patches};
+\node[lbl, right=0.3cm of patch] {196 patches, flattened};
 
 \node[block, below=of patch] (pos)  {+ Positional\\Embedding};
+\node[lbl, right=0.3cm of pos] {[CLS] prepended};
 
 \node[block, below=of pos, minimum height=2.5cm, fill=blue!30, text width=5.5cm]
     (encoder) {
